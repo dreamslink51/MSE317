@@ -1,0 +1,18 @@
+pent_NPT_1ns_1ps.xyz # MD traj
+1000 # No. of snapshot
+.FAULT.
+coeffpen_md
+pent.aoi
+18.795  23.358  43.533 # box size for MD and KMC  
+76.65  87.50  84.61
+1
+.FALSE.
+15
+98
+190.73
+0.0 0.0 0.0
+283      # Temperature
+1E-12    # time
+10000       # Max no. of KMC
+1000     # no. of MD step, only 1 snapshot for KMC run 
+.FALSE.
