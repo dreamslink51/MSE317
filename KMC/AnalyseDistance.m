@@ -3,8 +3,8 @@
 dist=load('distance.dat');
 tck=load('tcheck.dat');
 
-step=100000
-T=110
+step=10
+T=283
 n=floor(size(dist,1)/step);
 
 matrices=zeros(3*(n),3);
