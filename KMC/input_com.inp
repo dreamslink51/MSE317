@@ -1,10 +1,10 @@
-pent_NPT_1ns_1ps.xyz # MD traj
-1000 # No. of snapshot
+pent100.xyz # molecular dynamics(MD) simulation trajectory
+99 # No. of molecular dynamics simulation snapshots
 .FAULT.
 coeffpen_md
 pent.aoi
-18.795  23.358  43.533 # box size for MD and KMC  
-76.65  87.50  84.61
+18.795  23.358  43.533 # peridic box lengths   
+76.65  87.50  84.61 # peridic box angels
 1
 .FALSE.
 15
@@ -12,7 +12,7 @@ pent.aoi
 190.73
 0.0 0.0 0.0
 283      # Temperature
-1E-12    # time
-10000       # Max no. of KMC
-1000     # no. of MD step, only 1 snapshot for KMC run 
+1E-12     
+10000    # no. of KMC runs for each molecular dynamics simulation snapshot
+99     # no. of molecular dynamics step, e.g. 10 means to pick 1 snapshot every 10 MD step to run KMC 
 .FALSE.
