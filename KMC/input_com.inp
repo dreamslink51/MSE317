@@ -7,12 +7,12 @@ pent.aoi
 76.65  87.50  84.61 # peridic box angels
 1
 .FALSE.
-15
-98
+15  # distance cutoff to consider nearest neighbour
+98   # reorganization energy
 190.73
 0.0 0.0 0.0
 283      # Temperature
-1E-12     
+1E-12     # KMC time cutoff
 10000    # no. of KMC runs for each molecular dynamics simulation snapshot
 99     # no. of molecular dynamics step, e.g. 10 means to pick 1 snapshot every 10 MD step to run KMC 
 .FALSE.
