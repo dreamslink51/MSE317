@@ -24,6 +24,4 @@ temp: temperature (K) (Default: 283)
 For example  ./AnalyseDistance.py -nsample 10 -temp 283
 
 ### Extended Reading List
-
-
 * [Yang et al, Intermolecular charge transfer parameters, electron–phonon couplings, and the validity of polaron hopping models in organic semiconducting crystals: rubrene, pentacene, and C60(2017)](https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b00618)
